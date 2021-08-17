@@ -512,7 +512,6 @@ img {
 }
 
 .footer-input-form {
-  color: var(--main-text-color);
   display: flex;
   flex-direction: column;
   width: 358px;
@@ -523,6 +522,19 @@ img {
   border-radius: 4px;
   background-color: inherit;
   border-color: rgba(255, 255, 255, 0.3);
+
+  color: var(--main-text-color);
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+}
+
+.footer-input-form::placeholder {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-submit-button {
@@ -826,7 +838,7 @@ img {
   border: 1px solid var(--aditional-color);
 }
 
-.form-label textarea:placeholder {
+.form-textarea::placeholder {
   font-weight: normal;
   font-size: 12px;
   line-height: 14px;
