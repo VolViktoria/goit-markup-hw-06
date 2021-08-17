@@ -512,6 +512,7 @@ img {
 }
 
 .footer-input-form {
+  color: var(--main-text-color);
   display: flex;
   flex-direction: column;
   width: 358px;
