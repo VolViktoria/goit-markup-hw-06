@@ -532,6 +532,7 @@ img {
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.03em;
+  padding-left: 15px;
 }
 
 .footer-input-form::placeholder {
