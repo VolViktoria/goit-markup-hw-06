@@ -760,18 +760,25 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+
+.form-field {
+  margin-top: 12px;
+}
 .form-label {
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
 
-  margin-top: 12px;
   font-weight: normal;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
   color: var(--secondary-text-color);
+}
+
+.form-label span {
+  margin-bottom: 4px;
 }
 
 .form-input {
@@ -780,7 +787,6 @@ img {
   width: 448px;
   height: 40px;
   border-radius: 4px;
-  margin-top: 4px;
   padding: 0 0 0 35px;
   cursor: pointer;
 
@@ -814,8 +820,6 @@ img {
   width: 448px;
   height: 120px;
   padding: 12px 16px;
-  margin-top: 4px;
-  margin-bottom: 20px;
   border-radius: 4px;
   cursor: pointer;
 
@@ -841,13 +845,13 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 
-.policy input[type="checkbox"] {
-  width: 16px;
-  height: 15px;
-  margin-right: 4px;
+.text-agreement {
+  margin-left: 4px;
 }
+
 .agreement {
   display: flex;
   align-items: center;
@@ -856,7 +860,10 @@ img {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-  margin-bottom: 30px;
+}
+
+.policy button {
+  margin-top: 30px;
 }
 
 .link-agreement {
@@ -878,6 +885,8 @@ img {
   height: 15px;
   border-radius: 2px;
   margin-right: 4px;
+
+  transition: opacity var(--timing-function);
 }
 
 .checkbox:checked + .icon-checkbox {

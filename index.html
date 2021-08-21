@@ -537,44 +537,56 @@
         <div class="modal-form">
           <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
           <form>
-            <label for="name" class="form-label"
-              >Имя
-              <input class="form-input" type="text" name="name" />
-              <svg class="form-icon">
-                <use href="./images/symbol-defs-2.svg#icon-person-black"></use>
-              </svg>
-            </label>
+            <div class="form-field">
+              <label for="name" class="form-label">
+                <span>Имя</span>
+                <input class="form-input" type="text" name="name" />
+                <svg class="form-icon">
+                  <use
+                    href="./images/symbol-defs-2.svg#icon-person-black"
+                  ></use>
+                </svg>
+              </label>
+            </div>
 
-            <label for="tel" class="form-label"
-              >Телефон
-              <input class="form-input" type="text" name="phone" />
-              <svg class="form-icon">
-                <use href="./images/symbol-defs-2.svg#icon-phone-black"></use>
-              </svg>
-            </label>
+            <div class="form-field">
+              <label for="tel" class="form-label">
+                <span>Телефон</span>
+                <input class="form-input" type="text" name="phone" />
+                <svg class="form-icon">
+                  <use href="./images/symbol-defs-2.svg#icon-phone-black"></use>
+                </svg>
+              </label>
+            </div>
 
-            <label for="email" class="form-label"
-              >Почта
-              <input class="form-input" type="text" name="email" />
-              <svg class="form-icon">
-                <use href="./images/symbol-defs-2.svg#icon-email-black"></use>
-              </svg>
-            </label>
+            <div class="form-field">
+              <label for="email" class="form-label">
+                <span>Почта</span>
+                <input class="form-input" type="text" name="email" />
+                <svg class="form-icon">
+                  <use href="./images/symbol-defs-2.svg#icon-email-black"></use>
+                </svg>
+              </label>
+            </div>
 
-            <label class="form-label"
-              >Комментарий
-              <textarea
-                class="form-textarea"
-                name="comment"
-                placeholder="Введите текст"
-              ></textarea>
-            </label>
+            <div class="form-field">
+              <label class="form-label">
+                <span>Комментарий</span>
+                <textarea
+                  class="form-textarea"
+                  name="comment"
+                  placeholder="Введите текст"
+                ></textarea>
+              </label>
+            </div>
 
             <div class="policy">
               <label class="agreement">
                 <input type="checkbox" class="checkbox" name="agreement" />
                 <span class="icon-checkbox"></span>
-                Соглашаюсь с рассылкой и принимаю
+                <span class="text-agreement"
+                  >Соглашаюсь с рассылкой и принимаю</span
+                >
                 <a href="./" class="link-agreement">Условия договора</a>
               </label>
 
