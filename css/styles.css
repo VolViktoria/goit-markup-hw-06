@@ -760,10 +760,15 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  margin-bottom: 12px;
 }
 
 .form-field {
-  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.form-field-comment {
+  margin-bottom: 20px;
 }
 .form-label {
   position: relative;
@@ -846,7 +851,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .text-agreement {
@@ -861,10 +866,6 @@ img {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-}
-
-.policy button {
-  margin-top: 30px;
 }
 
 .link-agreement {
